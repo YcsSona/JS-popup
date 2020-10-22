@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito, sans-serif;
+}
+
+.open {
+  border: none;
+  outline: none;
+  background: cornflowerblue;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 2%;
+  cursor: pointer;
+}
+
+.close {
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background: cornflowerblue;
+  color: white;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+  max-width: 500px;
+  background: white;
+  margin: 7% auto;
+  border-radius: 8px;
+  padding: 30px;
+  position: relative;
+}
+
+.header h1 {
+  color: cornflowerblue;
+  border-bottom: 1px solid cornflowerblue;
+}
+
